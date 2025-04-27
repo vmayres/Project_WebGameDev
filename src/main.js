@@ -1,10 +1,11 @@
 import kaboom from "../lib/kaboom.mjs"
 
 kaboom({
+    canvas: document.getElementById("game"),
     width: 640,
     height: 480,
-    letterbox: true,
-})
+    letterbox: true
+});
 
 // Define cenas
 const scenes = {
@@ -28,4 +29,4 @@ for (const key in scenes) {
 }
 
 // Começa com a cena de menu
-go("menu")
+go("options")
