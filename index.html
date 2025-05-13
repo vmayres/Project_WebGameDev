@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo Kaboom</title>
+    <style>
+    body {
+        margin: 0;
+        background: #7a45e5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    canvas#game {
+        width: 1104px !important;
+        height: 621px !important;
+        max-width: 1104px;
+        max-height: 621px;
+        border: 2px solid white;
+    }
+</style>
+
+</head>
+<body>
+    <canvas id="game"></canvas>
+    <!-- Corrigido o caminho para o main.js -->
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
